@@ -15,7 +15,7 @@ Create a schema ( see schema.js file ) and add resolvers.
 
 Run `nodemon index` or `npm run start` to start the server which will run the `index.js` file.
 
-
+---
 ## Examples
 
 ### 1. To read the data
