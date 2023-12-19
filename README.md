@@ -1,5 +1,7 @@
 ## Getting Started with Apollo Server - GraphQL
 
+### This tutorial will guide on how to create different graphQL endpoints, if you want to know how to consume endpoints in ReactJS then check [this tutorial](https://github.com/shreyasikhar/GraphQL/blob/main/consuming-graphQL-with-reactjs.md)
+
 Open https://www.apollographql.com/docs/apollo-server/getting-started and follow the steps
 
 ```
