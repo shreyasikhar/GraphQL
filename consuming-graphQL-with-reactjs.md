@@ -8,6 +8,7 @@ npm i @apollo/client graphql
 ```
 
 ### 2. Open App.js and add following code
+This code will ensure our connection with the graphql server that we provided with `HttpLink`
 ```js
 import {
 	ApolloClient,
@@ -42,9 +43,9 @@ function App() {
 
 export default App;
 ```
-This code will ensure our connection with the graphql server that we provided with `HttpLink`
 
 ### 3. Querying data
+This component will fetch the users from graphql endpoint and render it when component is called.
 ```js
 import React, { useEffect, useState } from 'react';
 import { useQuery, gql } from '@apollo/client';
@@ -85,9 +86,9 @@ const GetUsers = () => {
 
 export default GetUsers;
 ```
-This component will fetch the users from graphql endpoint and render it when component is called.
 
 ### 4. Mutating the data
+This component will create the new user on our graphql endpoint.
 ```js
 import React, { useState } from 'react';
 import { useMutation, gql } from '@apollo/client';
@@ -157,4 +158,3 @@ const Form = () => {
 
 export default Form;
 ```
-This component will create the new user on our graphql endpoint.
